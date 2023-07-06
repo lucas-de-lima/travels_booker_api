@@ -14,6 +14,7 @@ Para configurar o ambiente de desenvolvimento da API, você precisará ter o Doc
 
 ## Iniciando
 [Ir para o topo](#multiverse-travels-booker-api)
+
 Clone o repositório:
 ```
 git clone {chave ssh do repositório}
@@ -30,6 +31,7 @@ Após esse comando, se você não usou a flag -d (docker-compose up -d), podera 
 
 ## Diretórios
 [Ir para o topo](#iniciando)
+
 O diretório principal, que contém todos os endpoints pode ser encontrado em:
 ```
 travels_booker_api/src/actions/travel_plans/index.cr
