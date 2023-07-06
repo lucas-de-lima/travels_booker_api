@@ -1,0 +1,129 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Travels Booker",
+    "dateExported": "2023-06-26T09:26:02.901Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "489f753f-1dad-45f5-9560-a489038c05f5",
+            "colId": "67cea58b-5cc9-4b0f-b0b2-49950e7e0207",
+            "containerId": "",
+            "name": "POST \"/travel_plans\"",
+            "url": "http://localhost:3000/travel_plans",
+            "method": "POST",
+            "sortNum": 15000,
+            "created": "2023-06-25T00:02:49.405Z",
+            "modified": "2023-06-26T07:21:31.086Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"travel_stops\": [3,4]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "852c0973-b81e-4dc4-b34c-5cc3e5787b14",
+            "colId": "67cea58b-5cc9-4b0f-b0b2-49950e7e0207",
+            "containerId": "",
+            "name": "GET \"/travel_plans\"",
+            "url": "http://localhost:3000/travel_plans/",
+            "method": "GET",
+            "sortNum": 25000,
+            "created": "2023-06-25T18:02:38.857Z",
+            "modified": "2023-06-26T01:41:50.013Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ec5f828d-a23f-4412-8d5b-d8e71e5a7f4a",
+            "colId": "67cea58b-5cc9-4b0f-b0b2-49950e7e0207",
+            "containerId": "",
+            "name": "GET \"/travel_plans?expand=true\"",
+            "url": "http://localhost:3000/travel_plans/?expand=true",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-06-26T05:27:42.022Z",
+            "modified": "2023-06-26T05:31:34.679Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "expand",
+                    "value": "true",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "aacc1875-d072-45f5-909c-84e8818f380a",
+            "colId": "67cea58b-5cc9-4b0f-b0b2-49950e7e0207",
+            "containerId": "",
+            "name": "GET \"/travel_plans/:id\"",
+            "url": "http://localhost:3000/travel_plans/1",
+            "method": "GET",
+            "sortNum": 35000,
+            "created": "2023-06-25T20:54:20.358Z",
+            "modified": "2023-06-26T05:32:28.807Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6f4867d2-e38c-4a41-ac28-ff8bf8b998e3",
+            "colId": "67cea58b-5cc9-4b0f-b0b2-49950e7e0207",
+            "containerId": "",
+            "name": "GET \"/travel_plans/:id?expand=true\"",
+            "url": "http://localhost:3000/travel_plans/1?expand=true",
+            "method": "GET",
+            "sortNum": 42500,
+            "created": "2023-06-26T05:41:15.423Z",
+            "modified": "2023-06-26T05:42:15.745Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "expand",
+                    "value": "true",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "775068b1-9b8a-40fe-9875-ec9e4af0c4cc",
+            "colId": "67cea58b-5cc9-4b0f-b0b2-49950e7e0207",
+            "containerId": "",
+            "name": "PUT \"/travel_plans/:id\"",
+            "url": "http://localhost:3000/travel_plans/1",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2023-06-26T02:23:39.786Z",
+            "modified": "2023-06-26T07:54:22.556Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"travel_stops\": [5,6]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "eba3c0bc-44a1-4ac4-b798-53c17d395116",
+            "colId": "67cea58b-5cc9-4b0f-b0b2-49950e7e0207",
+            "containerId": "",
+            "name": "DELETE \"/travel_plans/:id\"",
+            "url": "http://localhost:3000/travel_plans/1",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2023-06-26T02:01:24.921Z",
+            "modified": "2023-06-26T08:02:14.706Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

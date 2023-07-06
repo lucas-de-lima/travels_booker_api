@@ -1,0 +1,31 @@
+name: travels_booker_api
+version: 0.1.0
+
+authors:
+  - Lucas-De-Lima <lucasramosdelima@gmail.com>
+
+targets:
+  app:
+    main: src/travels_booker_api.cr
+
+crystal: 1.8.2
+
+dependencies:
+  lucky:
+    github: luckyframework/lucky
+    version: ~> 1.0.0
+  avram:
+    github: luckyframework/avram
+    version: ~> 1.0.0
+  carbon:
+    github: luckyframework/carbon
+    version: ~> 0.3.0
+  carbon_sendgrid_adapter:
+    github: luckyframework/carbon_sendgrid_adapter
+    version: ~> 0.3.0
+  lucky_env:
+    github: luckyframework/lucky_env
+    version: ~> 0.1.4
+  lucky_task:
+    github: luckyframework/lucky_task
+    version: ~> 0.1.1

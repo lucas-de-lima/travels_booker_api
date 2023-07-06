@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  lucky:
+    extends:
+      file: travels_booker_api/docker-compose.yml
+      service: lucky
+
+  postgres:
+    extends:
+      file: travels_booker_api/docker-compose.yml
+      service: postgres
+
+volumes:
+  postgres_data:
+  node_modules:
+  shards_lib:
